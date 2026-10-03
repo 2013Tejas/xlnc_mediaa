@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://xlncmedia.com/sitemap.xml
+Sitemap: https://xlnc-media.com/sitemap.xml

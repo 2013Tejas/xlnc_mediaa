@@ -28,7 +28,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
             <div className="mb-5">
               <img
                 src="/assets/xlnc-media-logo.png"
-                alt="XLNC MEDIA"
+                alt="XLNC Media - Client Acquisition Systems"
                 width={820}
                 height={350}
                 className="h-8 sm:h-9 w-auto object-contain block select-none"

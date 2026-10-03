@@ -88,14 +88,18 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
         <div className="max-w-[1200px] mx-auto flex items-center justify-between">
           {/* Logo - Original Client Approved Asset */}
           <a
-            href="#"
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
             id="nav-logo-link"
             className="group flex items-center hover:opacity-90 transition-opacity shrink-0"
             aria-label="XLNC Media Home"
           >
             <img
               src="/assets/xlnc-media-logo.png"
-              alt="XLNC MEDIA"
+              alt="XLNC Media - Client Acquisition Systems"
               width={820}
               height={350}
               className="h-7 sm:h-8 md:h-9 w-auto object-contain block select-none"
